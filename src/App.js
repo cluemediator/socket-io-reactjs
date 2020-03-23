@@ -55,6 +55,12 @@ function App() {
         onClick={handleSocketConnection} />
 
       <div style={{ marginTop: 20 }}><b>Date: </b> {dt}</div>
+      <div style={{ marginTop: 30 }}>
+        <b>Note:</b> Don’t forget to start the node server (http://localhost:4000).
+        Please check the previous article:
+        <a href="https://www.cluemediator.com/how-to-implement-socket-io-in-node-js" target="_blank"
+          title="Socket.IO – How to implement Socket.IO in Node.js – Part 2">Socket.IO – How to implement Socket.IO in Node.js – Part 2</a>
+      </div>
     </div>
   );
 }
